@@ -1,0 +1,121 @@
+% LaTeX Article Template
+\documentclass[11pt]{article}
+
+% space between paragraphs and no indentation of paragraphs
+\setlength{\parskip}{.08in} 
+\setlength{\parindent}{0in}
+
+% Added packages
+\usepackage{setspace}
+\usepackage{enumerate}
+\usepackage{bm}
+\usepackage{amsmath}
+\usepackage[dvips, bookmarks, colorlinks=true, plainpages = false, 
+citecolor = green, urlcolor = blue, filecolor = blue] {hyperref}
+\usepackage[font=small,format=plain,labelfont=bf,up,textfont=it,up]{caption}
+
+% Set the beginning of a LaTeX document
+\usepackage{graphicx}
+\graphicspath{%
+    {converted_graphics/}% inserted by PCTeX
+    {/}% inserted by PCTeX
+}
+
+\usepackage{endnotes}
+\let\footnote=\endnote
+
+\usepackage{titlesec}
+\titleformat{\section}
+  {\normalfont\fontfamily{phv}\fontsize{14}{17}\selectfont}{\thesection}{1em}{}
+
+\oddsidemargin 0.25in
+\evensidemargin 0.25in 
+
+\headheight 0.0in
+\headsep 0.0in
+\topmargin -0.25in
+
+\textwidth 6.0in 
+\textheight 9.0in 
+
+\paperheight 11.0in
+\paperwidth 8.5in
+
+\begin{document}
+
+\title{Capital Substitution in an Industrial Revolution}         % Enter your title between curly braces
+
+\author{Peter Berg\footnote{Corresponding author: peter.berg@ntnu.no}\\[0.5cm]
+{\small Department of Physics, NTNU}\\
+{\small 7491 Trondheim, Norway}\\[0.5cm]
+}
+
+\date{\today}          % Enter your date or \today between curly braces
+\maketitle
+\thispagestyle{empty}
+
+%\onehalfspacing
+\doublespacing
+
+\begin{abstract}
+here   
+
+\end{abstract}
+
+\textbf{Keywords:} Growth, Industrial Revolution, Capital, Substitution  
+
+\textbf{JEL classifications:} N10, O41
+
+\newpage
+
+\setcounter{page}{1}
+
+\section{Introduction}
+
+\section{Model}
+
+\subsection{Model 1}\label{subsec-m1}
+
+\begin{enumerate}
+   \item The high rate...
+   \item here...
+\end{enumerate}
+
+As mentioned in the subsection \ref{subsec-m1}...
+
+\begin{equation} \label{whatever}
+\sigma_t = \sigma_0 e^{g_\sigma t},
+\end{equation}
+
+In equation (\ref{whatever})...   
+
+Sam is in Figure \ref{SamKnows}...
+        
+\begin{table}
+\centering
+\begin{tabular}{|l l l l|}
+\hline
+$g_0$ & $\xi$ & $g_y$ Distant Past & $g_y$ Distant Future\\ \hline
+0.0011 & 0.8  & 0.95 & 0.66 \\
+0.0022 & 0.8  & 1.81 & 0.75 \\
+0.0033 & 0.8  & 2.67 & 0.85 \\
+0.0011 & 0.96  & 1.00 & 1.00 \\
+0.0022 & 0.96  & 1.88 & 1.12 \\
+0.0033 & 0.96  & 2.76 & 1.24 \\
+0.0011 & 1.2  & 1.09 & 2.20 \\
+0.0022 & 1.2  & 1.99 & 2.41 \\
+0.0033 & 1.2 & 2.90 & 2.63 \\ \hline
+\end{tabular}
+\caption{text here}
+\label{table3}
+\end{table}
+
+
+
+
+%\singlespacing
+
+% Set the ending of a LaTeX document
+\end{document}
+
+

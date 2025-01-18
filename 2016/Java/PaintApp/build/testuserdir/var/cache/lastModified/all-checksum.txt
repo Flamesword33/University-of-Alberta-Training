@@ -1,0 +1,9 @@
+C:\Program Files\NetBeans 8.1\platform=1452062104837
+cluster.C:/Users/Nathan/Desktop/School Files/computing science/112/notes/PaintApp/build/cluster=1473282217785
+cluster.C:/Program Files/NetBeans 8.1/platform=1452062104837
+user=1473282217785
+crc=7
+locale=en_CA
+branding=paintit
+java.version=1.8.0_65
+java.vm.version=25.65-b01
